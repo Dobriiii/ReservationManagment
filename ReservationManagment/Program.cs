@@ -16,7 +16,7 @@ namespace ReservationManagment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ResMngView());
+            Application.Run(new ReservationCreateView());
         }
     }
 }
