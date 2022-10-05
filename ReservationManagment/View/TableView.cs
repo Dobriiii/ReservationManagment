@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ReservationManagment
+namespace ReservationManagment.View
 {
-    public partial class ResMngView : Form
+    public partial class TableView : Form
     {
-        public ResMngView()
+        public TableView()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
