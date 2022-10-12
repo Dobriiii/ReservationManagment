@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ReservationManagment.View;
 
 namespace ReservationManagment
 {
@@ -16,7 +17,7 @@ namespace ReservationManagment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ReservationCreateView());
+            Application.Run(new TableView());
         }
     }
 }
