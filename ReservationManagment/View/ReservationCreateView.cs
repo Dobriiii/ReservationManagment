@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ReservationManagment.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,6 +18,14 @@ namespace ReservationManagment
             InitializeComponent();
         }
 
-        
+        private void ReservationCreateView_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -17,7 +17,7 @@ namespace ReservationManagment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TableView());
+            Application.Run(new LoginView());
         }
     }
 }

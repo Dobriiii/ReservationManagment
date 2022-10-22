@@ -66,6 +66,11 @@ namespace ReservationManagment.View
             showReservationController.UpdateTable(id, t);
             RefreshTable();
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
 
