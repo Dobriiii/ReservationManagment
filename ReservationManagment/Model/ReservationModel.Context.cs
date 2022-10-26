@@ -26,8 +26,8 @@ namespace ReservationManagment.Model
         }
     
         public virtual DbSet<CustomerTable> CustomerTables { get; set; }
-        public virtual DbSet<ReservationTable> ReservationTables { get; set; }
         public virtual DbSet<Table> Tables { get; set; }
         public virtual DbSet<UserTable> UserTables { get; set; }
+        public virtual DbSet<ReservationTable> ReservationTables { get; set; }
     }
 }

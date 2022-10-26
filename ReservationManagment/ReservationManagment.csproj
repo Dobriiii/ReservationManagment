@@ -75,7 +75,13 @@
   <ItemGroup>
     <Compile Include="Controller\LoginController.cs" />
     <Compile Include="Controller\RegisterController.cs" />
+    <Compile Include="Controller\ReservationTableController.cs" />
     <Compile Include="Controller\ShowReservationController.cs" />
+    <Compile Include="dgvReservation.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dgvReservation.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Model\Customer.cs" />
     <Compile Include="Model\CustomerTable.cs">
       <DependentUpon>ReservationModel.tt</DependentUpon>
@@ -162,6 +168,17 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>ReservationModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <None Include="dgvReservation.xsc">
+      <DependentUpon>dgvReservation.xsd</DependentUpon>
+    </None>
+    <None Include="dgvReservation.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dgvReservation.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dgvReservation.xss">
+      <DependentUpon>dgvReservation.xsd</DependentUpon>
+    </None>
     <None Include="Model\ReservationModel.edmx.diagram">
       <DependentUpon>ReservationModel.edmx</DependentUpon>
     </None>
